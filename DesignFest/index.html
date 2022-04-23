@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MC - Design Fest</title>
+    <link rel="stylesheet" href="./owl/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./owl/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./images/MC.svg" />
+  </head>
+  <body>
+    <nav class="main-nav">
+      <a class="nav-logo" href="https://www.microclub.com">
+        <img src="images/MC.svg" alt="" class="main-nav-image" />
+      </a>
+      <ul class="main-nav-elements">
+        <li class="main-nav-element">
+          <a href="https://www.microclub.net/">Micro club</a>
+        </li>
+        <li class="main-nav-element"><a href="#Home">Home</a></li>
+        <li class="main-nav-element"><a href="#About">About</a></li>
+        <li class="main-nav-element menu-holder">
+          <a href="#Details">Details</a>
+          <ul class="hover-menu">
+            <li class="hover-element">
+              <a href="#Speakers">Speakers</a>
+            </li>
+            <li class="hover-element">
+              <a href="#Schedule">Schedule</a>
+            </li>
+            <li class="hover-element">
+              <a href="#Workshops">Workshops</a>
+            </li>
+            <li class="hover-element">
+              <a href="#Location">Location</a>
+            </li>
+            <li class="hover-element">
+              <a href="#Sponsors">Sponsors</a>
+            </li>
+          </ul>
+        </li>
+        <li class="main-nav-element"><a href="#Contact">Contact</a></li>
+        <button class="button" onclick="openForm()">Register in the event <i class="fas fa-arrow-right"></i></button>
+      </ul>
+    </nav>
+    <div class="container" id="popupForm">
+      <label for="input" class="close" onclick="closeForm()"> x </label>
+      <div class="title">REGISTRATIONS</div>
+      <form action="#">
+        <div class="user-data">
+          <div class="input-box">
+            <span class="details">First Name:</span>
+            <input type="text" required />
+          </div>
+          <div class="input-box">
+            <span class="details">Last Name:</span>
+            <input type="text" required />
+          </div>
+          <div class="input-box">
+            <span class="details">E-mail:</span>
+            <input type="text" required />
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number:</span>
+            <input type="text" required />
+          </div>
+        </div>
+        <div class="btn">
+          <input
+            type="submit"
+            class="button"
+            value="COMPLETE THE REGISTRATION"
+          />
+        </div>
+      </form>
+    </div>
+
+    <header id="Home">
+      <section>
+        <h1>MICRO CLUB DESIGN FEST</h1>
+        <div class="info">
+          <h4>12 MAY 2022</h4>
+          <a href="#Location">CONFERENCE ROOM USTHB</a>
+          <a href="#Details" class="button secondary">Discover More</a>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section id="About">
+        <div class="about-sub">
+          <h2>ABOUT DESIGN FEST</h2>
+          <button class="button" onclick="openForm()">
+            Register in the event <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+        <div class="about-sub">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+            dolorum rem aliquid cumque at, magnam magni debitis consequatur
+            dolores doloribus placeat quos blanditiis sapiente assumenda quaerat
+            tempore sequi facilis rerum culpa esse dolore deleniti.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
+            corrupti assumenda nihil eveniet, voluptatem minima veritatis,
+            numquam saepe nostrum porro veniam sequi ab cumque mollitia, fugit
+            dolor? Ex, itaque recusandae!
+          </p>
+          <div class="about-container">
+            <div class="about-counters">
+              <h3 id="events">00</h3>
+              <p>Days Event</p>
+            </div>
+            <div class="about-counters">
+              <h3 id="conf">00</h3>
+              <p>CONFRENCES</p>
+            </div>
+            <div class="about-counters">
+              <h3 id="work">00</h3>
+              <p>WORKSHOPS</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="Speakers">
+        <div class="top-div">
+          <h2>Speakers</h2>
+          <a href="Speakers.html" class="secondary button">Veiw all speakers <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="owl-carousel speakers">
+          <div class="speaker">
+            <div class="speaker-visual">
+              <img class="speaker-img" src="images/xteam1.jpg" alt="" />
+              <ul class="speaker-socials">
+                <li class="speaker-social">
+                  <a href="https://www.facebook.com/Micro.Club.USTHB/"
+                    ><img src="./images/facebook-f-brands.svg"
+                  /></a>
+                </li>
+                <li class="speaker-social">
+                  <a href="https://www.instagram.com/microclub_usthb/"
+                    ><img src="./images/instagram-brands.svg"
+                  /></a>
+                </li>
+                <li class="speaker-social">
+                  <a href="https://www.linkedin.com/in/micro-club-usthb/"
+                    ><img src="./images/linkedin-in-brands.svg"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+            <h6>First LastName</h6>
+            <p>Web Developer <span>@micro club</span></p>
+          </div>
+          <div class="speaker">
+            <div class="speaker-visual">
+              <img class="speaker-img" src="images/xteam1.jpg" alt="" />
+              <ul class="speaker-socials">
+                <li class="speaker-social">
+                  <a href="https://www.facebook.com/Micro.Club.USTHB/"
+                    ><img src="./images/facebook-f-brands.svg"
+                  /></a>
+                </li>
+                <li class="speaker-social">
+                  <a href="https://www.instagram.com/microclub_usthb/"
+                    ><img src="./images/instagram-brands.svg"
+                  /></a>
+                </li>
+                <li class="speaker-social">
+                  <a href="https://www.linkedin.com/in/micro-club-usthb/"
+                    ><img src="./images/linkedin-in-brands.svg"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+            <h6>First LastName</h6>
+            <p>Web Developer <span>@micro club</span></p>
+          </div>
+          <div class="speaker">
+            <div class="speaker-visual">
+              <img class="speaker-img" src="images/xteam1.jpg" alt="" />
+              <ul class="speaker-socials">
+                <li class="speaker-social">
+                  <a href="https://www.facebook.com/Micro.Club.USTHB/"
+                    ><img src="./images/facebook-f-brands.svg"
+                  /></a>
+                </li>
+                <li class="speaker-social">
+                  <a href="https://www.instagram.com/microclub_usthb/"
+                    ><img src="./images/instagram-brands.svg"
+                  /></a>
+                </li>
+                <li class="speaker-social">
+                  <a href="https://www.linkedin.com/in/micro-club-usthb/"
+                    ><img src="./images/linkedin-in-brands.svg"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+            <h6>First LastName</h6>
+            <p>Web Developer <span>@micro club</span></p>
+          </div>
+          <div class="speaker">
+            <div class="speaker-visual">
+              <img class="speaker-img" src="images/xteam1.jpg" alt="" />
+              <ul class="speaker-socials">
+                <li class="speaker-social">
+                  <a href="https://www.facebook.com/Micro.Club.USTHB/"
+                    ><img src="./images/facebook-f-brands.svg"
+                  /></a>
+                </li>
+                <li class="speaker-social">
+                  <a href="https://www.instagram.com/microclub_usthb/"
+                    ><img src="./images/instagram-brands.svg"
+                  /></a>
+                </li>
+                <li class="speaker-social">
+                  <a href="https://www.linkedin.com/in/micro-club-usthb/"
+                    ><img src="./images/linkedin-in-brands.svg"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+            <h6>First LastName</h6>
+            <p>Web Developer <span>@micro club</span></p>
+          </div>
+          <div class="speaker">
+            <div class="speaker-visual">
+              <img class="speaker-img" src="images/xteam1.jpg" alt="" />
+              <ul class="speaker-socials">
+                <li class="speaker-social">
+                  <a href="https://www.facebook.com/Micro.Club.USTHB/"
+                    ><img src="./images/facebook-f-brands.svg"
+                  /></a>
+                </li>
+                <li class="speaker-social">
+                  <a href="https://www.instagram.com/microclub_usthb/"
+                    ><img src="./images/instagram-brands.svg"
+                  /></a>
+                </li>
+                <li class="speaker-social">
+                  <a href="https://www.linkedin.com/in/micro-club-usthb/"
+                    ><img src="./images/linkedin-in-brands.svg"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+            <h6>First LastName</h6>
+            <p>Web Developer <span>@micro club</span></p>
+          </div>
+        </div>
+      </section>
+      <section id="Details">
+        <img class="left-detail" src="images/Celeb.jpg" alt="" />
+        <div class="right-detail">
+          <h2>A MICRO CLUB <span>CELEBRATION OF DESIGN</span></h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+            enim reprehenderit nulla mollitia, hic explicabo ipsam quisquam
+            fugit adipisci eveniet quo aliquid, laudantium illum nostrum
+            aliquam! Harum illo temporibus ad.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+            enim reprehenderit nulla mollitia, hic explicabo ipsam quisquam
+            fugit adipisci eveniet quo aliquid, laudantium illum nostrum
+            aliquam! Harum illo temporibus ad.
+          </p>
+        </div>
+      </section>
+      <section id="Schedule">
+        <h2>Schedule</h2>
+        <div class="schedule-table">
+          <nav class="schedule-nav">
+            <a id="btn1" onclick="day1()">12th Oct</a>
+            <a id="btn2" onclick="day2()">13th Oct</a>
+            <a id="btn3" onclick="day3()">14th Oct</a>
+          </nav>
+          <div class="schedule-content">
+            <div class="schedule-day" id="schedule-day1">
+              <div class="schedule-content-element">
+                <div class="schedule-time-content">
+                  <h5>Registration And Breakfast</h5>
+                  <ul>
+                    <li>Name Last Name</li>
+                    <li>Name Last Name</li>
+                  </ul>
+                </div>
+                <h5 class="schedule-time">08:30 am</h5>
+              </div>
+              <div class="schedule-content-element">
+                <div class="schedule-time-content">
+                  <h5>Registration And Breakfast</h5>
+                  <ul>
+                    <li>Name Last Name</li>
+                    <li>Name Last Name</li>
+                  </ul>
+                </div>
+                <h5 class="schedule-time">10:00 am</h5>
+              </div>
+              <div class="schedule-content-element">
+                <div class="schedule-time-content">
+                  <h5>Registration And Breakfast</h5>
+                  <ul>
+                    <li>Name Last Name</li>
+                    <li>Name Last Name</li>
+                  </ul>
+                </div>
+                <h5 class="schedule-time">11:30 am</h5>
+              </div>
+            </div>
+            <div class="schedule-day" id="schedule-day2">
+              <div class="schedule-content-element">
+                <div class="schedule-time-content">
+                  <h5>Registration And Lunch</h5>
+                  <ul>
+                    <li>Name Last Name</li>
+                    <li>Name Last Name</li>
+                  </ul>
+                </div>
+                <h5 class="schedule-time">08:30 am</h5>
+              </div>
+              <div class="schedule-content-element">
+                <div class="schedule-time-content">
+                  <h5>Registration And Breakfast</h5>
+                  <ul>
+                    <li>Name Last Name</li>
+                    <li>Name Last Name</li>
+                  </ul>
+                </div>
+                <h5 class="schedule-time">10:00 am</h5>
+              </div>
+              <div class="schedule-content-element">
+                <div class="schedule-time-content">
+                  <h5>Registration And Breakfast</h5>
+                  <ul>
+                    <li>Name Last Name</li>
+                    <li>Name Last Name</li>
+                  </ul>
+                </div>
+                <h5 class="schedule-time">11:30 am</h5>
+              </div>
+            </div>
+            <div class="schedule-day" id="schedule-day3">
+              <div class="schedule-content-element">
+                <div class="schedule-time-content">
+                  <h5>Registration And Breakfast</h5>
+                  <ul>
+                    <li>Name Last Name</li>
+                    <li>Name Last Name</li>
+                  </ul>
+                </div>
+                <h5 class="schedule-time">08:30 am</h5>
+              </div>
+              <div class="schedule-content-element">
+                <div class="schedule-time-content">
+                  <h5>Registration And Breakfast</h5>
+                  <ul>
+                    <li>Name Last Name</li>
+                    <li>Name Last Name</li>
+                  </ul>
+                </div>
+                <h5 class="schedule-time">10:00 am</h5>
+              </div>
+              <div class="schedule-content-element">
+                <div class="schedule-time-content">
+                  <h5>Registration And Breakfast</h5>
+                  <ul>
+                    <li>Name Last Name</li>
+                    <li>Name Last Name</li>
+                  </ul>
+                </div>
+                <h5 class="schedule-time">11:30 am</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="Workshops">
+        <div class="top-div">
+          <h2>Workshops</h2>
+          <a href="Workshops.html" class="secondary button">Veiw all workshops <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="owl-carousel workshops">
+          <div class="workshop">
+            <div class="workshop-visual">
+              <img class="workshop-img" src="images/Adobe_Illustrator_CC_icon.svg" alt="" />
+              <div class="ecriture">
+                <div class="title">Design concepts</div>
+                <div class="p">This Training is made by ... for ... and some other details bla bla blabla bla bla  <a href="">read more..</a></div>
+              </div>
+            </div>
+            <div class="workshop-visual">
+              <img class="workshop-img" src="images/Adobe_Illustrator_CC_icon.svg" alt="" />
+              <div class="ecriture">
+                <div class="title">Design concepts</div>
+                <div class="p">This Training is made by ... for ... and some other details bla bla blabla bla bla  <a href="">read more..</a></div>
+              </div>
+            </div>
+            <div class="workshop-visual">
+              <img class="workshop-img" src="images/Adobe_Illustrator_CC_icon.svg" alt="" />
+              <div class="ecriture">
+                <div class="title">Design concepts</div>
+                <div class="p">This Training is made by ... for ... and some other details bla bla blabla bla bla  <a href="">read more..</a></div>
+              </div>
+            </div>
+            <div class="workshop-visual">
+              <img class="workshop-img" src="images/Adobe_Illustrator_CC_icon.svg" alt="" />
+              <div class="ecriture">
+                <div class="title">Design concepts</div>
+                <div class="p">This Training is made by ... for ... and some other details bla bla blabla bla bla  <a href="">read more..</a></div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <section id="Location">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7606.826485606849!2d3.1858369496193335!3d36.7159297615306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128e5189eb619c9d%3A0x787a0b4fa45e227a!2sUniversity%20Of%20Science%20And%20Technology%20Houari%20Boumediene!5e0!3m2!1sen!2suk!4v1628360275743!5m2!1sen!2suk"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen="true"
+          loading="lazy"
+        ></iframe>
+      </section>
+    </main>
+    <footer>
+      <section class="slider" id="Sponsors">
+        <h2>Sponsors</h2>
+        <div class="slide-track">
+          <div class="my-3 mx-auto owl-carousel owl-carousel2 owl-loaded owl-drag">
+            <div class="slide">
+              <img  src="images/brand2.png" alt="" />
+            </div>
+            <div class="slide">
+              <img  src="images/brand2.png" alt="" />
+            </div>
+            <div class="slide">
+              <img  src="images/brand2.png" alt="" />
+            </div>
+            <div class="slide">
+              <img  src="images/brand2.png" alt="" />
+            </div>
+            <div class="slide">
+              <img  src="images/brand2.png" alt="" />
+            </div>
+            <div class="slide">
+              <img  src="images/brand2.png" alt="" />
+            </div>
+            <div class="slide">
+              <img  src="images/brand2.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="Contact">
+        <div class="contact-parts">
+          <img class="nav-logo" src="images/MC.svg" alt="" />
+          <p>
+            Duis aute irure dolor inassfa reprehenderit in voluptate velit esse
+            cillum. Explicabo, maiores quisquam numquam quia reiciendis sit,
+            accus antium atque ex animi perspiciatis ab odit earum assumenda
+            aliquid santium.
+          </p>
+        </div>
+        <div class="contact-parts">
+          <h5>Contact Us</h5>
+          <a href="#Location" class="link">Confrence Room USTHB</a>
+          <a href="mailto:microclub@usthb.dz" class="link">microclub@usthb.dz</a>
+          <a class="contact-phone" href="tel:+213542170114">(+213) 542 17 01 14</a>
+        </div>
+        <div class="contact-parts">
+          <h5>Subscribe Newsletter</h5>
+          <p>
+            raising a heavy fur muff that covered the whole of her lower arm
+            towards the viewer.
+          </p>
+          <input class="input" type="email" name="email" />
+          <button class="button" id="subscribe">
+            Subscribe for more details <i class="fas fa-arrow-right"></i>
+          </button>
+          <p>Submitting...</p>
+        </div>
+      </section>
+      <hr />
+      <p class="last-child">
+        Copyright ©2022 All rights reserved
+        <a href="https://www.microclub.net">@MicroClub</a>
+      </p>
+    </footer>
+    <div class="contient-fleche">
+      <a href="#Home" class="petite-fleche"><i class="fa fa-arrow-up"></i></a>
+  </div>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./owl/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({ items: 4, nav: true });
+      });
+    </script>
+    <script>
+      function openForm() {
+        document.getElementById("popupForm").style.display = "block";
+        document.querySelector("main").classList.add("blurFilter");
+        document.querySelector("header").classList.add("blurFilter");
+        document.querySelector("nav").classList.add("blurFilter");
+        document.querySelector("footer").classList.add("blurFilter");
+        document.getElementById("popupForm").classList.add("NoblurFilter");
+      }
+      function closeForm() {
+        document.getElementById("popupForm").style.display = "none";
+        document.querySelector("main").classList.remove("blurFilter");
+        document.querySelector("header").classList.remove("blurFilter");
+        document.querySelector("nav").classList.remove("blurFilter");
+        document.querySelector("footer").classList.remove("blurFilter");
+      }
+    </script>
+    <script type="text/javascript">
+      var db_event = 00;
+      var db_conf = 00;
+      var db_work = 00;
+      function finish() {
+        clearInterval(debut);
+      }
+      function work() {
+        db_work++;
+        if (db_work > 20) {
+          finish();
+        } else {
+          var work = (document.getElementById("work").innerHTML =
+            db_work + "+");
+        }
+      }
+      function events() {
+        db_event++;
+        if (db_event > 35) {
+          finish();
+        } else {
+          var events = (document.getElementById("events").innerHTML =
+            db_event + "+");
+        }
+      }
+      function conf() {
+        db_conf++;
+        if (db_conf > 10) {
+          finish();
+        } else {
+          var conf = (document.getElementById("conf").innerHTML =
+            db_conf + "+");
+        }
+      }
+
+      function start() {
+        db_work = setInterval(work, 100);
+        db_conf = setInterval(conf, 100);
+        db_event = setInterval(events, 100);
+      }
+      window.addEventListener("load", function () {
+        start();
+      });
+    </script>
+    <script>
+      function day1() {
+        document.getElementById("schedule-day1").style.display = "block";
+        document.getElementById("schedule-day2").style.display = "none";
+        document.getElementById("schedule-day3").style.display = "none";
+        document.getElementById("btn1").style.color="#FFBD00";
+        document.getElementById("btn1").style.borderBottom="3px #FFBD00 solid";
+        document.getElementById("btn2").style.color="#fff";
+        document.getElementById("btn2").style.borderBottom="none";
+        document.getElementById("btn3").style.color="#fff";
+        document.getElementById("btn3").style.borderBottom="none";
+      }
+      function day2() {
+        document.getElementById("schedule-day2").style.display = "block";
+        document.getElementById("schedule-day1").style.display = "none";
+        document.getElementById("schedule-day3").style.display = "none";
+        document.getElementById("btn2").style.color="#FFBD00";
+        document.getElementById("btn2").style.borderBottom="3px #FFBD00 solid";
+        document.getElementById("btn1").style.color="#fff";
+        document.getElementById("btn1").style.borderBottom="none";
+        document.getElementById("btn3").style.color="#fff";
+        document.getElementById("btn3").style.borderBottom="none";
+      }
+      function day3() {
+        document.getElementById("schedule-day3").style.display = "block";
+        document.getElementById("schedule-day2").style.display = "none";
+        document.getElementById("schedule-day1").style.display = "none";
+        document.getElementById("btn3").style.color="#FFBD00";
+        document.getElementById("btn3").style.borderBottom="3px #FFBD00 solid";
+        document.getElementById("btn1").style.color="#fff";
+        document.getElementById("btn1").style.borderBottom="none";
+        document.getElementById("btn2").style.color="#fff";
+        document.getElementById("btn2").style.borderBottom="none";
+      }
+    </script>
+    <script>
+
+      menu = document.querySelector('.main-nav')
+      window.addEventListener('scroll',function (e)
+      {
+          contite = window.scrollY
+          hasScrolledClass = menu.classList.contains('fixed')
+          if(contite>500 && !hasScrolledClass ){
+              menu.classList.add('fixed')
+          menu.style.width = widthM+"px"
+          }
+          else  if(contite<=500 && hasScrolledClass )
+          {
+              menu.classList.remove('fixed')
+              manu.classList.add("nofixe")
+          }
+      })
+    </script>
+  </body>
+</html>
